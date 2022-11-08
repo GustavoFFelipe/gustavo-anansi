@@ -1,0 +1,25 @@
+:root {
+    --background: #E5E5E5;
+    --black-text: #2B2B2B;
+    --blue-tetextxt:  #1C4D78;
+    --background-text: #ffff;
+    --background-input: #bbb9b9;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+
+    body{
+        -webkit-font-smoothing: antialiased;
+        font-family: 'Bebas Neue';
+        background-color: var(--background);
+        text-decoration: none;
+    }
+}

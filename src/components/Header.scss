@@ -1,0 +1,22 @@
+header {
+    max-width: 70rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+
+    img{
+        width: 2rem;
+    }
+
+    .nav-bar a{
+        margin: 0 .5rem;
+        line-height: 1.6;
+        letter-spacing: .2rem;
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--blue-text);
+        text-decoration: none;
+    }
+}
