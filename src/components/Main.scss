@@ -1,0 +1,57 @@
+@use '../global.scss';
+
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid var(--blue-text);
+
+    img{
+        width: 23rem;
+        height: 33rem;
+    }
+    .text-container{
+        font-size: 4rem;
+        width: 20rem;
+
+        .blue-text{
+            color: var(--blue-text);
+            &:hover{
+                color: var(--black-text);
+                transition: .4s;
+            }
+        }
+        .black-text{
+            color: var(--black-text);
+            &:hover{
+                color: var(--blue-text);
+                transition: .4s;
+            }
+        }
+    }
+
+    .pop-up{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+        line-height: 1.5;
+        padding: .4rem 1rem;
+        background: transparent;
+        border: 1px solid transparent;
+        border-bottom: 1px solid var(--black-text);
+
+        &:hover{
+            color: var(--blue-text);
+            filter: brightness(1.5);
+            border: 1px solid var(--blue-text);;
+            cursor: pointer;
+            transition: .2s filter;
+            box-shadow: 5px 5px 15px var(--blue-text);
+        }
+
+    }
+    
+
+}
