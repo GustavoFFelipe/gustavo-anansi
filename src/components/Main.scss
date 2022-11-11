@@ -1,20 +1,22 @@
 @use '../global.scss';
 
-.container {
+.mainContainer {
     max-width: 70rem;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border-bottom: 2px solid var(--blue-text);
 
     img{
         width: 23rem;
         height: 33rem;
+        margin-right: 5rem;
     }
     .text-container{
         font-size: 4rem;
         width: 20rem;
+        margin-left: 5rem;
 
         .blue-text{
             color: var(--blue-text);

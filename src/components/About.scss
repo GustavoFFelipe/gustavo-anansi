@@ -1,0 +1,26 @@
+@use '../global';
+
+.aboutContainer{
+    max-width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    padding: 1rem 0 2rem 3rem;
+    border-bottom: 2px solid var(--blue-text);
+
+    h3{
+        font-size: 1.7rem;
+        color: var(--blue-text);
+        width: 70rem;
+        margin: 1rem auto;
+    }
+    p{
+        width: 60rem;
+        color: var(--black-text);
+        font-size: 1.5rem;
+        line-height: 1.6;
+
+    }
+}

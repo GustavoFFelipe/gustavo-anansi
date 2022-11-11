@@ -2,19 +2,24 @@
 import { Header } from './components/Header';
 import {Sidebar} from './components/Sidebar';
 import { Main } from './components/Main';
+import { Projects } from './components/Projects'
 
 import './global.scss';
 import './App.scss'
+import { About } from './components/About';
 
 function App() {
 
   return (
     <>
       <Header />
-      <main className="app-container">
+      <article className="app-container">
         <Sidebar />
         <Main />
-      </main>
+        <Projects />
+        <About />
+      </article>
+      
     </>
   )
 }

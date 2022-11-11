@@ -3,7 +3,7 @@ import './Main.scss';
 
 export function Main(){
     return(
-        <div className="container">
+        <div className="mainContainer">
             <img src={perfil} alt="Imagem de Perfil" />
             <div className="text-container">
                 <h3 className="blue-text">FRONT-END DEVELOPER.</h3>
