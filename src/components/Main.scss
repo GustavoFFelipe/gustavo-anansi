@@ -14,9 +14,12 @@
         margin-right: 5rem;
     }
     .text-container{
-        font-size: 4rem;
         width: 20rem;
         margin-left: 5rem;
+
+        h3{
+            font-size: 4rem;
+        }
 
         .blue-text{
             color: var(--blue-text);

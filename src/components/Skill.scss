@@ -1,0 +1,14 @@
+@use '../global';
+
+.skillContainer {
+    max-width: 500px;
+    height: 100px;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
+    .item{
+        text-align: center;
+}
+h3{
+    color: var(--blue-text);
+}
+}

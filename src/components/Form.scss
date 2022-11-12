@@ -1,0 +1,54 @@
+@use '../global';
+
+.contact{
+    max-width: 70rem;
+    margin: 2rem auto;
+
+    form{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:focus{
+        outline-color: var(--blue-text);
+    }
+
+    h3{
+        color: var(--blue-text);
+    }
+    label{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    input{
+        padding: 0 .5rem;
+        border: 1px solid var(--blue-text);
+        background: rgba(0, 0, 0, .05);
+        border-radius: 4px;
+    }
+
+    textarea{
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 4px;
+        padding: .5rem .5rem;
+    }
+
+    .btn{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        padding: .2rem 2rem;
+        width: 20rem;
+        background-color: var(--blue-text);
+        color: var(--background);
+        border: 1px solid var(--blue-text);
+
+        &:hover{
+            filter: brightness(1.2);
+            cursor: pointer;
+            transition: .2s ;
+        }
+    }
+    }
+}

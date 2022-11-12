@@ -2,6 +2,11 @@
     max-width: 70rem;
     margin: 0 auto;
     
+    .infoContainer{
+        
+        border-bottom: 2px solid var(--blue-text);
+
+    }
 }
 
 @media (max-width: 600px){
