@@ -9,7 +9,7 @@ import { Skill } from './components/Skill';
 import './global.scss';
 import './App.scss'
 import { Form } from './components/Form';
-
+import { Footer } from './components/Footer'
 function App() {
 
   return (
@@ -25,6 +25,7 @@ function App() {
         </div>
         <Form />
       </article>
+      <Footer />
       
     </>
   )
