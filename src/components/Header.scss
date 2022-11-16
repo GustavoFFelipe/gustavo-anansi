@@ -29,15 +29,24 @@ header {
             border-bottom: 1px solid var(--blue-text);
         }
     }
+    .mobileContainer{
+        display: none;
+    }
+
 
     .menuMobile{
         display:none;
     }
 
 }
+
+/**Mobile container*/
+
 @media (max-width: 768px){
+header{
     .nav-bar{
         display: none;
+
     }
     .menuMobile{
         display: block;
@@ -45,4 +54,11 @@ header {
         top: 1rem;
         right: 1rem;
     }
+
+    .mobileContainer{
+        display: none;
+        height: 100vh;
+    }
+
+}
 }

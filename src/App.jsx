@@ -7,7 +7,6 @@ import { Skill } from './components/Skill';
 import { Form } from './components/Form';
 import { Footer } from './components/Footer'
 
-{/*import { MenuMobile } from './components/MenuMobile';*/}
 
 
 
@@ -20,7 +19,6 @@ function App() {
   return (
 
     <>
-      {/*<MenuMobile />*/} 
       <Header />
       <article className="app-container">
         <Sidebar />

@@ -8,6 +8,9 @@
     align-items: center;
     border-bottom: 2px solid var(--blue-text);
 
+    overflow-x: hidden;
+
+
     img{
         width: 23rem;
         height: 33rem;
@@ -79,6 +82,8 @@
 @media(max-width: 425px){
     .mainContainer{
         max-width: 50rem;
+        width:100vw;
+
 
         img{
             display: none;

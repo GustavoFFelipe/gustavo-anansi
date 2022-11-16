@@ -7,6 +7,9 @@
     padding: 3rem 2rem 0 2rem;
     display: flex;
 
+    overflow-x: hidden;
+
+
     .navFooter{
         display: flex;
         flex-direction: column;
@@ -73,6 +76,8 @@
 @media (max-width: 425px){
     .footerContainer{
         max-width: 50rem;
+        width:100vw;
+
 
         display: block;
         .navFooter{
