@@ -6,9 +6,10 @@ import { About } from './components/About';
 import { Skill } from './components/Skill';
 import { Form } from './components/Form';
 import { Footer } from './components/Footer'
-import { MenuMobile } from './components/MenuMobile';
 
-import { useState } from 'react';
+{/*import { MenuMobile } from './components/MenuMobile';*/}
+
+
 
 
 import './global.scss';
@@ -19,7 +20,7 @@ function App() {
   return (
 
     <>
-        {/*<MenuMobile />*/} 
+      {/*<MenuMobile />*/} 
       <Header />
       <article className="app-container">
         <Sidebar />
