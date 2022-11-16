@@ -4,7 +4,6 @@ import logo from '../assets/logo.svg';
 import './Header.scss';
 
 import { FacebookLogo, GithubLogo, InstagramLogo, LinkedinLogo, X } from 'phosphor-react';
-import './MenuMobile.scss';
 
 export function Header(){
 
