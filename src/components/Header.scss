@@ -30,9 +30,19 @@ header {
         }
     }
 
+    .menuMobile{
+        display:none;
+    }
+
 }
 @media (max-width: 768px){
     .nav-bar{
         display: none;
+    }
+    .menuMobile{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
     }
 }

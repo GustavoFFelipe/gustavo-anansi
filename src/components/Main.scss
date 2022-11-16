@@ -60,3 +60,33 @@
     
 
 }
+
+@media(max-width: 600px){
+    .mainContainer{
+        max-width: 50rem;
+
+        img{
+            display: none;
+        }
+
+        .text-container{
+            margin-bottom: 2rem;
+
+        }
+    }
+}
+
+@media(max-width: 425px){
+    .mainContainer{
+        max-width: 50rem;
+
+        img{
+            display: none;
+        }
+
+        .text-container{
+            margin-bottom: 2rem;
+
+        }
+    }
+}

@@ -58,3 +58,39 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .projectContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 425px){
+    .projectContainer{
+        max-width: 50rem;
+
+        
+
+        .card{
+            width:20.5rem;
+            height: 13rem;
+
+            img{
+                width: 10rem;
+                height: 6rem;
+            }
+
+
+
+            p{
+                font-size: .875rem;
+            }
+            .top{
+                font-size: .875rem; 
+            }
+            .bottom{
+                font-size: .875rem ;
+            }
+        }
+    }
+}

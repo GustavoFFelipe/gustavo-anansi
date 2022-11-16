@@ -23,3 +23,39 @@
 
     }
 }
+
+@media (max-width: 768px){
+
+    .aboutContainer{
+        max-width: 60rem;
+        font-size: 1rem;
+
+        h3{
+            font-size: 1.2rem;
+        }
+        p{
+            width: 50rem;
+            font-size: 1.2rem;
+        }
+    }
+
+}
+
+@media (max-width: 425px){
+    .aboutContainer{
+        max-width: 40rem;
+        margin:0 auto;
+        padding: .5rem;
+
+        h3{
+            width: 40rem;
+            font-size: 1.2rem;
+        }
+
+        p{
+            width: 20rem;
+            font-size: .875rem;
+            margin: 0 auto;
+        }
+    }
+}

@@ -69,3 +69,18 @@
             }
     }
 }
+
+@media (max-width: 425px){
+    .footerContainer{
+        max-width: 50rem;
+
+        display: block;
+        .navFooter{
+        display: none;
+        }
+
+        .copy{
+            display: none;
+        }
+    }
+}

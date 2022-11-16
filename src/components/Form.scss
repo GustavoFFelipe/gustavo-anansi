@@ -52,3 +52,18 @@
     }
     }
 }
+
+@media (max-width:425px){
+    .contact{
+
+        form{
+            label, input{
+                font-size: .875rem;
+            }
+            .btn{
+                font-size: .875rem;
+                width: 10rem;
+            }
+        }
+    }
+}

@@ -1,8 +1,8 @@
 @use '../global';
 
 .skillContainer {
-    max-width: 500px;
-    height: 100px;
+    max-width: 300px;
+    height: 80px;
     margin: 2rem auto;
     margin-bottom: 4rem;
     .item{
@@ -10,5 +10,9 @@
 }
 h3{
     color: var(--blue-text);
+}
+
+img{
+    width: 60px;
 }
 }
