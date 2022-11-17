@@ -4,7 +4,7 @@ import './Form.scss';
 
 export function Form(){
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <form action="https://formsubmit.co/gustavo.ffelipedev@gmail.com" method="POST">
                 <h3>Entre em contato</h3>
                 <label htmlFor="name">Nome</label>

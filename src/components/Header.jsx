@@ -22,10 +22,10 @@ export function Header(){
         <header>
             <img id='logo' src={logo} alt="" />
             <nav className='nav-bar'>
-                <a href="">Home</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre mim</a>
-                <a href="">Contato</a>
+                <a href="#main">Home</a>
+                <a href="#projects">Projetos</a>
+                <a href="#about">Sobre mim</a>
+                <a href="#contact">Contato</a>
             </nav>
             <List className="menuMobile" onClick={handleOpenMenu} size={32} weight="fill" />
             {/* Open menu*/}
@@ -35,10 +35,10 @@ export function Header(){
                         size={26} weight="bold" 
                     />
                     <nav className='nav-bar'>
-                        <a href="">Home</a>
-                        <a href="">Projetos</a>
-                        <a href="">Sobre mim</a>
-                        <a href="">Contato</a>
+                        <a href="#main">Home</a>
+                        <a href="#projects">Projetos</a>
+                        <a href="#about">Sobre mim</a>
+                        <a href="#contact">Contato</a>
                     </nav>
 
                     <div className="midiaLinks">

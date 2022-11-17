@@ -6,7 +6,7 @@ export function Footer(){
     return(
         <div className='footerContainer'>
             <div className='navFooter' >
-                <a href="#home">Home</a>
+                <a href="#main">Home</a>
                 <a href="#projects">Projetos</a>
                 <a href="#about">Sobre mim</a>
                 <a href="#contact">Contato</a>

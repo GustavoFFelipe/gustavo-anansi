@@ -7,7 +7,7 @@ import './Projects.scss'
 
 export function Projects(){
     return(
-        <div className="projectContainer">
+        <div id="projects" className="projectContainer">
             <a href="https://coffeelandhishere.netlify.app/">
             <div className="card">
                 <p className="top">2021</p>

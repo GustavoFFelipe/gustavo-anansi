@@ -5,7 +5,7 @@ export function Main(){
     return(
         <div className="mainContainer">
             <img src={perfil} alt="Imagem de Perfil" />
-            <div className="text-container">
+            <div id="main" className="text-container">
                 <h3 className="blue-text">FRONT-END DEVELOPER.</h3>
                 <h3 className="black-text">UX/UI DESIGNER.</h3>
 
