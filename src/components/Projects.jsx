@@ -8,7 +8,7 @@ import './Projects.scss'
 export function Projects(){
     return(
         <div id="projects" className="projectContainer">
-            <a href="https://coffeelandhishere.netlify.app/">
+            <a href="https://coffeelandhere.netlify.app/">
             <div className="card">
                 <p className="top">2021</p>
                 <p>Coffeeland os melhores cafés de toda a cidade</p>
