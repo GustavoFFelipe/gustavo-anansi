@@ -16,7 +16,7 @@ export function Projects(){
                 <p className="bottom">Caso de Estudo</p>
             </div>
             </a>
-            <a href="https://foxriver.netlify.app/">
+            <a href="https://foxriver.vercel.app/">
             <div className="card">
                 <p className="top">2021</p>
                 <p>Onde você encontra os melhores NFTs.</p>
